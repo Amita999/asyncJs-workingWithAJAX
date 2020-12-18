@@ -1,0 +1,20 @@
+[
+    {
+        "id":1 ,
+        "name":"Steve",
+        "company":"iTechie",
+        "phone":"0251-2529941"
+    },
+    {
+        "id":2 ,
+        "name":"Kristein",
+        "company":"it",
+        "phone":"0251-2529943"
+    },
+    {
+        "id":3 ,
+        "name":"John Doe",
+        "company":"iTech",
+        "phone":"0251-2529948"
+    }
+]
