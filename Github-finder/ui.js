@@ -48,7 +48,8 @@ class UI {
 
   showRepos(repos) {
     let output = "";
-    repos.forEach((repo) => {
+    console.log("repos:",repos);
+    repos.forEach(function(repo){
       output += `
   <div class = "card card-body mb-2">
   <row class>
@@ -70,11 +71,12 @@ class UI {
   </row>
   </div>
   `;
-    });
+    })
+
    //Output repos
-   
+   console.log("output: ",output);
    document.getElementById('repos').innerHTML = output;
-  }
+  } 
 
   //clear Profile
   clearProfile() {
